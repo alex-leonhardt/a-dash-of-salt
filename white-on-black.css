@@ -1,0 +1,28 @@
+#vt100 #cursor.bright {
+  background-color: white;
+  color:            black;
+  scrolling:        no;
+  overflow-y: hidden;
+}
+
+#vt100 #scrollable {
+  color:            #ffffff;
+  background-color: #000000;
+  scrolling:        no;
+  overflow-y: hidden;
+}
+
+#vt100 #scrollable.inverted {
+  color:            #000000;
+  background-color: #ffffff;
+  scrolling:        no;
+  overflow-y: hidden;
+}
+
+#vt100 .ansi15 {
+  color:            #000000;
+}
+
+#vt100 .bgAnsi0 {
+  background-color: #ffffff;
+}

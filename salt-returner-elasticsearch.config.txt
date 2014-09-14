@@ -1,0 +1,10 @@
+elasticsearch:
+  host: '192.168.122.1:9200'
+  index: 'salt'
+  number_of_shards: 1
+  number_of_replicas: 0
+
+# set returner to elasticsearch
+ext_job_cache: elasticsearch
+
+
